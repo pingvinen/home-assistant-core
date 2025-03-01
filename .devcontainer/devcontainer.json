@@ -67,5 +67,8 @@
         ]
       }
     }
-  }
+  },
+  "mounts": [
+    "source=/home/patrick/workspace/github/leven-homeassistant/docker/home-assistant/config/custom_components,target=/workspaces/home-assistant-core/config/custom_components,type=bind,consistency=cached"
+  ]
 }
